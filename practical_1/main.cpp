@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 
+
 using namespace sf;
 using namespace std;
 
@@ -45,7 +46,6 @@ void Load() {
     // reset paddle position
 
     ballVelocity = { (isPlayer1Serving ? initialVelocityX : -initialVelocityX), initialVelocityY };
-
 }
 void Update(RenderWindow& window) {
     // Reset clock, recalculate deltatime
